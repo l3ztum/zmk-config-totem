@@ -1,0 +1,22 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_TOTEM_TP_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "TOTEM TP"
+    
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TOTEM_TP_LEFT || SHIELD_TOTEM_TP_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_BLE
+    default y
+
+endif
