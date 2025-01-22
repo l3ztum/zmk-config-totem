@@ -1,0 +1,12 @@
+file_format: "1"
+id: totem_tp
+name: TOTEM TP
+type: shield
+url: https://github.com/GEIGEIGEIST/TOTEM_TP
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - pointers
+siblings:
+  - totem_tp_left
+  - totem_tp_right
